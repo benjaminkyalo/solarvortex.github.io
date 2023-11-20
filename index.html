@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="javascripts.js"></script>
+    <title>index.html</title>
+    <link rel="stylesheet" href="the solar vortex.css">
+    <script src="https://kit.fontawesome.com/632c242b29.js" crossorigin="anonymous"></script>
+    <img src="the solar photos/" alt="photos">
+    <style>
+      
+head{
+    text-align: center;
+}
+img{
+    width: 200px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 10px;
+}
+body{
+    text-indent: 50px; 
+    padding: 0;
+    margin-left: 30px;
+    font-size: 16px;
+}
+header
+{
+background-color:#fff;
+padding: 15px;
+box-shadow: 0 0 3px #000;
+border-radius: 5px;
+}
+header li{
+    display: inline;
+    padding-left: 35px;
+    
+}
+header li a{
+    text-decoration: none;
+    color: #333;
+    padding: 13px;
+    transition: 0.3s ease;
+}
+header li a:hover{
+    color: blue;
+    transition: 0.3s ease;
+}
+header ul #BOOK a{
+    color: #fff;
+    background-color: blue;
+    border-radius: 30px;
+    float:right;
+    position: relative;
+    top: -15px;
+    transition: 0.3s ease;
+}
+header li #BOOK a:hover{
+    background-color: goldenrod;
+}
+header li img{
+    width: 180px;
+    height: 100px;
+    float: left;
+    margin-top: -20px;
+}
+.active{
+    color: blue;
+}
+div.gallery {
+    margin: 5px;
+    border: 2px solid #000;
+    float: left;
+    width: 400px;
+    align-items: center;
+    margin-left: 50px;
+    overflow-x: scroll;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+  p{
+    text-indent: 50px;
+  }
+  h1{
+    font-style: italic;
+    font-weight: bolder;
+  }
+  div.box{
+    width: 320px;
+    padding: 10px;
+    border: 1px solid red;
+    margin: 10px;
+    float: left;
+    border-radius: 30px;
+    height: 50px;
+    color:#fff;
+    background-color: #000;
+    font-style: italic;
+    font-size: 24px;
+  }
+  div.rockets{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    font-size: 18px;
+    color: red;
+  }
+
+  .flex-container{
+    display:flex;
+    border-radius: 10px;
+    height: 200px;
+    border-radius: 15px;
+    height: auto;
+  }
+  .flex-container div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #777;
+
+  }
+  div.img{
+    border-radius: 40px;
+  }
+  /*----------------------footer--------------*/
+  body{
+    line-height: 1.5;
+    font-family: 'poppins', sans-serif;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .footer{
+    background-color: #24262b;
+    border-radius: 6px;
+
+  }
+  .container{
+    width: 1170px;
+    background-color:gray;
+    margin: auto;
+border-radius: 6px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 20px;
+    color:#000;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 20px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+  }
+  .footer-col ul li a:hover{
+    color: #000;
+    padding-left: 10px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    background-color: rgba(255,255,255,0,2);
+    margin:0 10px 10px 0;
+    line-height: auto;
+    color: #ffff;
+    transition: all 0.5s ease;
+    text-decoration: none;
+  }
+  .footer-col .social-links a:hover{
+    color: black;
+    background-color: #e91e63;
+  }
+
+
+
+
+
+    </style>
+</head>
+<header>
+            <ul>
+                <li> <img src="./img/ logo.jpeg"></li>
+                <li><a href="#" class="active">Home</li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Testmonials</a></li>
+                <li><a href="#">contact</a></li>
+                <li id="BOOK"><a href="#" onclick="
+                alert('The rocket is booked, come back soon.')";>BOOK TOUR</a></li>
+            </ul>
+        </header>
+        <body>
+            <h1><center><b>The solar vortex: <br>
+            Where scientsts and space Ethusiasts connect.</center></b></h1>
+
+        <img src="./img/ System Background (1).jpeg">
+        Where scientsts and space Ethusiasts connect.</b></h1><br>
+        solar vortex: is a platform that provides scientists and space Ethusiasts with a comprehensive <br>
+        resource for learning about the planets and their current state. <br>
+        The platform uses variety of high technolgy tool including probe and telescopes to gather data,
+        <br> images and videos of the planets to creat detailed and informative reports <br>
+        as well as visualization of the planets' features. <br>
+        Its key features is to provide scientists with a real time view of the planets by <br>
+        by gathering live data around the planets. <br>
+        valuable resource for the scientists who are planing misssions to the planets.
+        <h1><center><b>About</b></center></h1>  <br>
+        <p>
+            <div class="rockets"><img src="rockets.jpeg"><p><u>our rockets at work</u></p>
+
+            </div>
+             <h2> Whith solar vortex you can:</h2><br>
+            . <u><b>Book tour,</b></u><br>
+            we have space enthusiasts who usually go to the space, for exploration <br>
+            and new discouveries conserning the realtime science in the planets. <br>
+            to became a member you can book a tour and get directed on what next. <br>
+            . <u><b>Learn about the planets:</b></u> <br>
+            Solar vortex provides comprensive information abiut each planet in our solar system <br>
+            including its physical characteristics, atmosphere, history, and current state of exploration. <br>
+            . <u><b> Explore the planets through photos and videos:</b></u> <br>
+            Its features  collection are of high-resolution photos, and videos of the plannets, <br>
+            taken by scientists and space probes. this allows you to explore the planets in details. <br>
+            And get a close up look of their unique features. <br>
+            . <u><b> Stay up -to-date on the latest research:</b></u> <br>
+            Solar vortex blogs provides real-time information on the latest research, <br>
+            and the latest discouveries about the planets and space . <br>
+            This is a great way to stay informed about the latest developments in <br>
+             planetary science and exploration </p>
+             <h1><center><b>Blogs and Articles</b></center></h1> <br>
+                <div class="box">latest solar news</div>
+                <div class="box">images of the day</div>
+                <div class="box">videos of the week</div>
+                <div class="box">Solar system trivia</div>
+                <div class="box">sola system  Q&A</div>
+                <div class="box"> DIY projects</div>
+                <div class="box">Solar system for kids</div>
+                <div class="box">History to solar exploration</div>
+                <div class="box">The nine planets</div>
+                <div class="box">Moons of the solar system</div>
+                <div class="box">Astroids and comets</div>
+                <div class="box">The sun & atmosphere</div>
+                <div class="box">The solar winds</div>
+                <div class="box">Magnetic fields</div>
+                <div class="box">space wheather</div>
+                <div class="box">Future of solar exploration</div>=   ` `  
+             <h1><center><b>Gallery</b></center></h1>
+             The solar vortex gallery is a collection of images and videos from all the planets <br>
+             complied to help you as scientist and space explorer 
+             , study and get real-time <br>information on each planet.
+             the gallery is powered by the solar vortex software, which uses artificial intelligence <br>
+             and high technolgy probes including telescopes to gather information, <br>
+             images, videos from variety of sources. <br>
+             The solar vortex is a valuable resource for scientists who are styding the planets <br>
+             It allows them to quickly access a wide range of data whithout having <br>
+              to spend time on serching for and curating it themselves, the gallery is also a <br>
+               great way for the public to learn more about the tha planets and <br>
+               see the latest images and videos. <br>
+               <div class="gallery">
+                <a target="_blank" href="/img/">
+                  <img src="./img/ planet.jpeg" alt=" mercury planet" width="600" height="400">
+                </a>
+                <div class="desc">The smallest and about 58m kilometers from the sun
+                </a><br><button>learn more</button>
+                </div>
+              </div>
+
+              <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                  <img src="./img/ Planet.jpeg" alt="venus planet" width="600" height="400">
+                </a>
+                <div class="desc">Its about 475 degrees celsius, being the hotest <br>
+                  <button>learn more</button>
+                </div>
+              </div>
+
+              <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                  <img src="./img/earth planet.jpeg" alt="earth planet" width="600" height="400">
+                </a>
+                <div class="desc">It has a diverse geology and its the only planet supoting life <br>
+                  <button>lear more</button>
+                </div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                  <img src="./img/mars planet.jpeg" alt="mars planet" width="600" height="400">
+                </a>
+                <div class="desc">Contains deserts,canyons,polar ice caps, largest volcano etc. <br>
+                  <button>learn more</button>
+                </div>
+              </div>
+                 <br>
+              <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                  <img src="./img/jupiter planet.jpeg" alt="jupiter planet" width="600" height="400">
+                </a>
+                <div class="desc">jupiter is more massive than all other planets <br>
+                  <button>learn more</button>
+                </div>
+              </div>
+
+              <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                  <img src="./img/saturn planet2.jpeg" alt="saturn plante" width="600" height="400">
+                </a>
+                <div class="desc">Mostly known for its stunning ring system containing icy particles <br>
+                  <button>learn more</button>
+                </div>
+              </div>
+            
+         <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                  <img src="./img/uranus planet.jpeg" alt="uranus plante" width="600" height="400">
+                </a>
+                <div class="desc">its unique, it rotates on its own side with axial tilt of about 98 degrees <br>
+                  <button>lear nmore</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                  <img src="./img/neptune planet2.jpeg" alt="neptune plante" width="600" height="400">
+                </a>
+                <div class="desc">About 2.8billion miles from the sun, has a faint system of rings <br> 
+                  <button>learn more</button>
+                </div>
+              </div>
+              </div>
+
+              <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                  <img src="./img/nine planet.jpeg" alt="nine plante" width="600" height="400">
+                </a>
+                <div class="desc">latest to be discovered,and also reffered to as planet X why? <br>
+                  <button onclick="
+                    alert('to be written later');">learn more</button>
+                </div>
+              </div>
+             <h1><center><b>Testimonial from our Astronauts</b></center></h1>
+            <div class="flex-container">
+              <div class="img"><img src="./img/Neil armstrong.jpeg"><b>
+              Neil <br> Aiden Armstrong</b></div>"Research is creating new knowledge.<br>
+              knowledge is funtamental to all human beings achievments and progress. it is both the key and the quest that advances mankind
+              " I have understood the importance of scientific research innovation. I believe that there are key to better fure in 
+              space for humanity.
+              <div class="img"><img src="./img/edwin 33.jpeg"><b>Edwin <br>Eugene Aldrin</b></div>
+              Space exploration is not just about going to moon and mars,Learning more about our univers
+              and our places in it. its  expanding our horizons and pushing what is possible. importantly
+              it pushed us to the limits of oue techs and scientific capabilities.
+              <div class="img"><img src="./img/david scott.jpeg"> <b>David <br>Randolph Scott</b></div>
+              "when i stand here on the moon and look back at the earth I realize that man was created to explore univers."
+              For when i look at the moon I dont see a hostile, empty world, I see a radiant body where man has taken his first
+              step into a endless frontier.
+              <div class="img"><img src="./img/Charles Duke 3.jpeg"> <b>Charles <br>Moss Duke jr.</b></div>
+              "space is the most beautiful i have ever been  it's a awe-inspiring . it makes you feel small but it also makes you feel beings
+              . Its a humbling experience. space exploration future of humanity its how we are going to expand our horizons 
+              and learn more about ourselves and future of the universe."
+            </div> <br>
+            <!---------------------------------footer----------------------------->
+          </div>
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="footer-col">
+                  <h4>The vortex;</h4>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">Gallery</a></li> 
+                    <li><a href="#">Testmonials</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li id="BOOK"><a href="#">BOOK TOUR</a></li>
+                  </ul>
+                </div>
+               <div class="footer-col">
+                <h4>Talk to Testimonial</h4>
+                <ul>
+                <li><a href="#">David scott</a></li>
+                <li><a href="#">charles Duke</a></li>
+                <li><a href="#">Buzz Adrin</a></li> 
+                <li><a href="#">Edgar mitchell</a></li>
+                <li><a href="#">Eugene Cernan</a></li>
+                <li><a href="#">John Young</a></li>
+                <li><a href="#">Harrison Schimitt</a></li>
+                </ul>
+               </div>
+               <div class="footer-col">
+                <h4>Our social media</h4>
+                <div class="social-links">
+               <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </li>
+                </div>
+               </div>
+              </div>
+
+            </div>
+          </footer>
+            </body>
+</html>
